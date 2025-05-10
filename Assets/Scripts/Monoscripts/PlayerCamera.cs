@@ -36,6 +36,7 @@ public class PlayerCamera : MonoBehaviour
 
         yRotation += mouseX; //đẩy camera trái/phải
         xRotation -= mouseY; //xoay camera lên/xuống
+        //là một loại toán tử
         //dùng để tích luỹ chuyển động của con chuột vào biến xoay xRotation và yRotation
 
         xRotation = Mathf.Clamp(xRotation, -90f, 80f);
